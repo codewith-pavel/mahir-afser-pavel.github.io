@@ -29,7 +29,6 @@ author:
   bio              : "AI Researcher focused on trustworthy, efficient, and multimodal AI for healthcare."
   location         : "Dhaka, Bangladesh"
   employer         : "Research Assistant, <br> ELITE Research Lab LLC"
-  uri              : "https://elitelab.ai/team/research"
   email            : "mahir.pavel@gmail.com" 
 
   # Academic websites
@@ -79,6 +78,7 @@ author:
   zhihu            : # Username
   Discord          : # "MahirPavel"
   Whatsapp         : # "+880 1873742510"
+  uri              : "https://elitelab.ai/team/research"
   #Extra
   # github           : "codewith-pavel"
   kaggle           : "mahirafser" # competewithpavel another Username  
