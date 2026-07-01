@@ -54,14 +54,14 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  # github           : "codewith-pavel"
+  github           : "codewith-pavel"
   kaggle           : "mahirafser" # competewithpavel another Username  
   stackoverflow    : "32897463/mahir-pavel" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
   bluesky          : # Replace this with you Bluesky username
-  facebook         : "mahir.afser.19115"
+  # facebook         : "mahir.afser.19115"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -69,7 +69,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "mahirafserpavel"
+  # linkedin         : "mahirafserpavel"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
