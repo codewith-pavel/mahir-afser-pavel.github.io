@@ -26,11 +26,11 @@
   border-top: 1px solid var(--global-dark-border-color);
 
   @include breakpoint($large) {
-    width: calc(100% - 2rem);
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
+    width: 100%;
+    max-width: none;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
   }
 
   &:hover,
@@ -54,8 +54,8 @@
     flex-direction: column;
     align-items: center;
     margin: 0.75em auto 0;
-    max-width: 480px;
-    width: 100%;
+    max-width: 720px;
+    width: min(720px, calc(100% - 2rem));
     padding: 0 0 0.75rem;
     text-align: center;
   }
