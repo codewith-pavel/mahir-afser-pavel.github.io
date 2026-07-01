@@ -23,42 +23,45 @@ repository               : "codewith-pavel/codewith-pavel.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "MahirAfserPavel.png"
+  avatar           : "MahirAfserPavel.jpg"
   name             : "Mahir Afser Pavel"
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "AI Researcher focused on trustworthy, efficient, and multimodal AI for healthcare."
   location         : "Dhaka, Bangladesh"
-  employer         : "Department of Computer Science and Engineering, North South University"
+  employer         : "Department of Computer Science and Engineering, North South University | Research Assistant, ELITE Research Lab LLC"
   uri              : "https://codewith-pavel.github.io"
   email            : "mahir.pavel@gmail.com" 
 
   # Academic websites
-  academia         : # URL
+  academia         : "https://elitelab.ai/team/research"
+  NSU Alumni       : "https://alumni.northsouth.edu/searchGrad?search=Mahir+Afser+Pavel"
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=172rqgEAAAAJ&view_op=list_works&sortby=pubdate"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
+  orcid            : "https://orcid.org/0009-0005-3395-9159"
+  semantic         : "https://www.semanticscholar.org/author/Mahir-Afser-Pavel/2321260323"
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/" # will be build
+  researchgate     : "https://www.researchgate.net/profile/Mahir-Afser-Pavel?__cf_chl_f_tk=shqicXZNJnSxxHFQbPDUQXl1Y.9nP0RmaHxqH6xVrMs-1782923962-1.0.1.1-d99ov3L_lgn8kOYRgrQ6up3Ca3i0LYhwYzmM1_YgI08"
+  scopus           : "" # will be build
+  SciProfiles      : "https://sciprofiles.com/profile/MahirAfserPavel"
+  AD Scientific Index : "https://adscientificindex.com/scientist/mahir-afser-pavel/6316113/"
+  zotero           : "" # will be build
 
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  github           : "codewith-pavel"
+  kaggle           : "mahirafser, competewithpavel" # Username  
+  stackoverflow    : "Mahir Pavel" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
+  bluesky          : # Replace this with you Bluesky username
+  facebook         : "https://www.facebook.com/mahir.afser.19115/"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -66,21 +69,23 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/mahirafserpavel/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : # URL
+  telegram         : "map19115" # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "" # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
+  youtube          : "mahirafser3736" # Username
   zhihu            : # Username
+  Discord          : "MahirPavel"
+  Whatsapp         : "+880 1873742510"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
