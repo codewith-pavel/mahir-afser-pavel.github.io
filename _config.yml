@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "sunrise" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Mahir Afser Pavel | AI Researcher & Academic Portfolio"
 title_separator          : "-"
 name                     : &name "Mahir Afser Pavel"
@@ -23,14 +23,14 @@ repository               : "codewith-pavel/codewith-pavel.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "MahirAfserPavel.png"
+  name             : "Mahir Afser Pavel"
+  pronouns         : "He/Him" # example: "she/her"  
+  bio              : "AI Researcher focused on trustworthy, efficient, and multimodal AI for healthcare."
+  location         : "Dhaka, Bangladesh"
+  employer         : "Department of Computer Science and Engineering, North South University"
+  uri              : "https://codewith-pavel.github.io"
+  email            : "mahir.pavel@gmail.com" 
 
   # Academic websites
   academia         : # URL
