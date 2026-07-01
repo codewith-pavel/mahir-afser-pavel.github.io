@@ -28,7 +28,7 @@ author:
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "AI Researcher focused on trustworthy, efficient, and multimodal AI for healthcare."
   location         : "Dhaka, Bangladesh"
-  employer         : "Department of Computer Science and Engineering, North South University | Research Assistant, ELITE Research Lab LLC"
+  employer         : "Research Assistant, ELITE Research Lab LLC"
   uri              : "https://codewith-pavel.github.io"
   email            : "mahir.pavel@gmail.com" 
 
@@ -42,12 +42,12 @@ author:
   orcid            : "https://orcid.org/0009-0005-3395-9159"
   semantic         : "https://www.semanticscholar.org/author/Mahir-Afser-Pavel/2321260323"
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/" # will be build
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/myncbi/" # will be build
   researchgate     : "https://www.researchgate.net/profile/Mahir-Afser-Pavel?__cf_chl_f_tk=shqicXZNJnSxxHFQbPDUQXl1Y.9nP0RmaHxqH6xVrMs-1782923962-1.0.1.1-d99ov3L_lgn8kOYRgrQ6up3Ca3i0LYhwYzmM1_YgI08"
-  scopus           : "" # will be build
+  scopus           :  # will be build
   SciProfiles      : "https://sciprofiles.com/profile/MahirAfserPavel"
   AD Scientific Index : "https://adscientificindex.com/scientist/mahir-afser-pavel/6316113/"
-  zotero           : "" # will be build
+  zotero           :  # will be build
 
 
   # Repositories and software development
@@ -55,13 +55,13 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "codewith-pavel"
-  kaggle           : "mahirafser, competewithpavel" # Username  
-  stackoverflow    : "Mahir Pavel" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : "mahirafser" # competewithpavel another Username  
+  stackoverflow    : "32897463/mahir-pavel" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
   bluesky          : # Replace this with you Bluesky username
-  facebook         : "https://www.facebook.com/mahir.afser.19115/"
+  facebook         : "mahir.afser.19115/"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -77,15 +77,15 @@ author:
   steam            : # Username
   telegram         : "map19115" # URL
   tumblr           : # Username
-  twitter          : "" # Username for X / Twitter
+  twitter          : # "" # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
   youtube          : "mahirafser3736" # Username
   zhihu            : # Username
-  Discord          : "MahirPavel"
-  Whatsapp         : "+880 1873742510"
+  Discord          : # "MahirPavel"
+  Whatsapp         : # "+880 1873742510"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
