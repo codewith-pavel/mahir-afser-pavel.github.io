@@ -6,6 +6,8 @@
   @include clearfix;
   background-color: var(--global-footer-bg-color);
   color: var(--global-text-color-light);
+  display: flex;
+  justify-content: center;
 
   float: left;
   margin-left: 0;
@@ -48,16 +50,19 @@
 
   footer {
     @include clearfix;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
-    max-width: 720px;
-    width: calc(100% - 2rem);
+    max-width: 520px;
+    width: min(520px, calc(100% - 2rem));
     padding: 0 1rem 1rem;
     text-align: center;
 
     @include breakpoint($x-large) {
-      max-width: 720px;
+      max-width: 520px;
     }
   }
 
@@ -96,11 +101,13 @@
   font-size: $type-size-7;
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 .page__footer-follow {
   display: flex;
   justify-content: center;
+  width: 100%;
 
   ul {
     margin: 0;
