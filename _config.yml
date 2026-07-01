@@ -34,7 +34,7 @@ author:
 
   # Academic websites
   academia         : "https://elitelab.ai/team/research"
-  NSU Alumni       : "https://alumni.northsouth.edu/searchGrad?search=Mahir+Afser+Pavel"
+  # NSU Alumni       : "https://alumni.northsouth.edu/searchGrad?search=Mahir+Afser+Pavel"
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=172rqgEAAAAJ&view_op=list_works&sortby=pubdate"
   inspire-hep      : # URL
@@ -45,8 +45,8 @@ author:
   pubmed           : # "https://www.ncbi.nlm.nih.gov/myncbi/" # will be build
   researchgate     : "https://www.researchgate.net/profile/Mahir-Afser-Pavel?__cf_chl_f_tk=shqicXZNJnSxxHFQbPDUQXl1Y.9nP0RmaHxqH6xVrMs-1782923962-1.0.1.1-d99ov3L_lgn8kOYRgrQ6up3Ca3i0LYhwYzmM1_YgI08"
   scopus           :  # will be build
-  SciProfiles      : "https://sciprofiles.com/profile/MahirAfserPavel"
-  AD Scientific Index : "https://adscientificindex.com/scientist/mahir-afser-pavel/6316113/"
+  # SciProfiles      : "https://sciprofiles.com/profile/MahirAfserPavel"
+  # AD Scientific Index : "https://adscientificindex.com/scientist/mahir-afser-pavel/6316113/"
   zotero           :  # will be build
 
 
@@ -61,7 +61,7 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : # Replace this with you Bluesky username
-  facebook         : "mahir.afser.19115/"
+  facebook         : "mahir.afser.19115"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
