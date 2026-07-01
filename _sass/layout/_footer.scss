@@ -22,7 +22,7 @@
   overflow: hidden;
   transform: translateY(calc(100% - 2.25rem));
   transition: transform 0.25s ease, opacity 0.25s ease;
-  opacity: 0.95;
+  opacity: 0.78;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -43,7 +43,7 @@
     height: 4px;
     margin: 0.35rem auto 0.5rem;
     border-radius: 999px;
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.28);
   }
 
   footer {
@@ -51,12 +51,12 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 0.6em;
-    max-width: 720px;
+    max-width: 960px;
     padding: 0 1em 0.75em;
     text-align: center;
 
     @include breakpoint($x-large) {
-      max-width: 720px;
+      max-width: 960px;
     }
   }
 
@@ -105,10 +105,11 @@
     padding: 0;
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 0.35rem 0.75rem;
+    width: 100%;
   }
 
   li {
