@@ -8,6 +8,7 @@
   color: var(--global-text-color-light);
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 
   float: left;
   margin-left: 0;
@@ -30,6 +31,10 @@
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
+
+  @media screen and (min-width: 1024px) {
+    padding-left: 250px;
+  }
 
   &:hover,
   &:focus-within {
@@ -61,6 +66,11 @@
 
     @include breakpoint($x-large) {
       max-width: 520px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      margin-left: 0;
+      width: min(480px, calc(100% - 2rem));
     }
   }
 
