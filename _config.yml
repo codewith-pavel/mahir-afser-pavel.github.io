@@ -61,7 +61,7 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : # Replace this with you Bluesky username
-  facebook         : "mahir.afser.19115"
+  # facebook         : "mahir.afser.19115"
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -69,7 +69,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "mahirafserpavel"
+  # linkedin         : "mahirafserpavel"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
