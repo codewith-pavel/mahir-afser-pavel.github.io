@@ -14,12 +14,15 @@
   width: 100%;
   clear: both;
 
-  /* keep footer in normal document flow so custom widgets do not overlap content */
+  /* keep the footer compact and reveal it only when needed */
   height: auto;
-
-  /* keep the footer on the bottom of the page */
-  position: relative;
+  position: sticky;
   bottom: 0;
+  z-index: 10;
+  overflow: hidden;
+  transform: translateY(calc(100% - 2.25rem));
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  opacity: 0.95;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -27,16 +30,33 @@
           animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
 
+  &:hover,
+  &:focus-within {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 4px;
+    margin: 0.35rem auto 0.5rem;
+    border-radius: 999px;
+    background-color: rgba(255, 255, 255, 0.45);
+  }
+
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
-    max-width: 100%;
-    padding: 0 1em 1em;
+    margin-top: 0.6em;
+    max-width: 720px;
+    padding: 0 1em 0.75em;
+    text-align: center;
 
     @include breakpoint($x-large) {
-      max-width: $x-large;
+      max-width: 720px;
     }
   }
 
@@ -58,10 +78,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* don't pin the footer on mobile devices */
   .page__footer {
     position: relative;
     bottom: auto;
+    transform: none;
+    opacity: 1;
+  }
+
+  .page__footer::before {
+    display: none;
   }
 }
 
@@ -71,6 +96,9 @@
 }
 
 .page__footer-follow {
+  display: flex;
+  justify-content: center;
+
   ul {
     margin: 0;
     padding: 0;
