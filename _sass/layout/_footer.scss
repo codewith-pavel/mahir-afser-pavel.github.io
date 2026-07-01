@@ -22,7 +22,7 @@
   overflow: hidden;
   transform: translateY(calc(100% - 2.25rem));
   transition: transform 0.25s ease, opacity 0.25s ease;
-  opacity: 0.78;
+  opacity: 1;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -34,16 +34,6 @@
   &:focus-within {
     transform: translateY(0);
     opacity: 1;
-  }
-
-  &::before {
-    content: "";
-    display: block;
-    width: 64px;
-    height: 4px;
-    margin: 0.35rem auto 0.5rem;
-    border-radius: 999px;
-    background-color: rgba(255, 255, 255, 0.28);
   }
 
   footer {
