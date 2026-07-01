@@ -28,12 +28,12 @@ author:
   pronouns         : "He/Him" # example: "she/her"  
   bio              : "AI Researcher focused on trustworthy, efficient, and multimodal AI for healthcare."
   location         : "Dhaka, Bangladesh"
-  employer         : "Research Assistant, ELITE Research Lab LLC"
-  uri              : "https://codewith-pavel.github.io"
+  employer         : "Research Assistant, <br> ELITE Research Lab LLC"
+  uri              : "https://elitelab.ai/team/research"
   email            : "mahir.pavel@gmail.com" 
 
   # Academic websites
-  academia         : "https://elitelab.ai/team/research"
+  # academia         : "https://elitelab.ai/team/research"
   # NSU Alumni       : "https://alumni.northsouth.edu/searchGrad?search=Mahir+Afser+Pavel"
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=172rqgEAAAAJ&view_op=list_works&sortby=pubdate"
@@ -81,7 +81,7 @@ author:
   Whatsapp         : # "+880 1873742510"
   #Extra
   # github           : "codewith-pavel"
-  # kaggle           : "mahirafser" # competewithpavel another Username  
+  kaggle           : "mahirafser" # competewithpavel another Username  
   # stackoverflow    : "32897463/mahir-pavel" # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
   # facebook         : "mahir.afser.19115"
   # linkedin         : "mahirafserpavel"
