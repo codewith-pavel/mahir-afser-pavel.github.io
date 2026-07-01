@@ -16,14 +16,13 @@
   width: 100%;
   clear: both;
 
-  /* keep the footer compact and reveal it only when needed */
+  /* place the footer below the page content instead of anchoring it over the sidebar */
   height: auto;
-  position: sticky;
-  bottom: 0;
-  z-index: 10;
+  position: relative;
+  bottom: auto;
+  z-index: 1;
   overflow: hidden;
-  transform: translateY(calc(100% - 2.25rem));
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition: opacity 0.25s ease;
   opacity: 0.95;
 
   -webkit-animation: intro 0.3s both;
@@ -34,7 +33,6 @@
 
   &:hover,
   &:focus-within {
-    transform: translateY(0);
     opacity: 1;
   }
 
@@ -85,9 +83,6 @@
 
 @media screen and (max-width: 768px) {
   .page__footer {
-    position: relative;
-    bottom: auto;
-    transform: none;
     opacity: 1;
   }
 
