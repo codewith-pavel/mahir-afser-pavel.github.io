@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<!--
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
@@ -54,3 +54,93 @@ Example: editing a Markdown file for a talk
 For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+-->
+
+# About Me
+
+Welcome! I am **Mahir Afser Pavel**, an AI researcher specializing in trustworthy, efficient, and multimodal artificial intelligence for healthcare. My research focuses on developing intelligent systems that bridge advances in machine learning with real-world clinical applications.
+
+Currently, I work as a **Research Assistant at ELITE Research Lab LLC** and graduated from the **Department of Computer Science and Engineering, North South University, Bangladesh**. I am preparing to pursue a **fully funded Ph.D. in Artificial Intelligence**, with interests spanning clinical language understanding, medical imaging, multimodal learning, and privacy-preserving AI.
+
+---
+
+# Research Interests
+
+### 🧠 Large Language Models (LLMs)
+Developing efficient and trustworthy language models for clinical reasoning, multilingual healthcare applications, and medical decision support.
+
+### 🏥 Clinical Natural Language Processing
+Cross-lingual clinical text understanding, outcome prediction, low-resource NLP, and electronic health record analysis.
+
+### 👁️ Vision-Language Models
+Multimodal AI that integrates medical images and clinical narratives for diagnostic assistance and explainable healthcare.
+
+### 🩻 Medical Imaging
+AI-based analysis of retinal images, CT scans, dental radiographs, skin lesions, and other medical imaging modalities.
+
+### 🔍 Explainable AI
+Designing transparent and interpretable deep learning systems using SHAP, Grad-CAM, uncertainty estimation, and explainability techniques.
+
+### 🌐 Federated Learning & AI Optimization
+Privacy-preserving distributed learning, lightweight deep learning, model compression, knowledge distillation, and edge AI deployment.
+
+---
+
+# Current Positions
+
+- **Research Assistant**  
+  ELITE Research Lab LLC
+
+- **B.Sc. Graduate**  
+  Department of Computer Science and Engineering  
+  North South University, Bangladesh
+
+---
+
+# Featured Research
+
+*A curated selection of recent publications and ongoing research projects.*
+
+➡️ **View all Publications:** `/publications/`
+
+➡️ **View all Projects:** `/portfolio/`
+
+---
+
+# Recent News
+
+- 📌 Personal academic website launched.
+- 📄 Research manuscripts under review.
+- 🤝 Continuing research on trustworthy AI for healthcare.
+- 🎯 Preparing Ph.D. applications for 2027.
+
+---
+
+# Explore
+
+- 📄 Publications
+- 💻 Research Projects
+- 📑 Curriculum Vitae
+- 🎤 Talks & Presentations
+- 📰 News
+- 📬 Contact
+
+---
+
+# Visitor Map
+
+*A live visitor map will appear here.*
+
+---
+
+# Contact
+
+📧 Email: mahir.pavel@gmail.com
+
+🔗 Google Scholar
+
+🔗 ORCID
+
+🔗 GitHub
+
+🔗 LinkedIn
