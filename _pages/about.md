@@ -55,14 +55,18 @@ For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 -->
-Welcome! **Mahir Afser Pavel** is an **AI researcher** dedicated to developing **trustworthy, efficient, and multimodal artificial intelligence for healthcare**. He currently serves as a **Research Assistant at ELITE Research Lab LLC**, where his research focuses on **medical imaging**, **healthcare informatics**, and **multimodal learning**. He earned a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**. His academic background and research experience have provided him with a strong foundation in **deep learning**, **computer vision**, **large language models**, **vision-language models**, and **explainable artificial intelligence**, with the overarching goal of advancing **AI-driven healthcare innovation**.
 
-His research aims to develop **trustworthy**, **efficient**, and **clinically relevant AI systems** that improve medical decision-making and patient care. His current interests include **Large Language Models (LLMs)**, **Clinical Natural Language Processing (Clinical NLP)**, **Medical Image Analysis**, **Computer Vision**, **Vision-Language Models (VLMs)**, **Explainable AI (XAI)**, **Federated Learning**, **Trustworthy Machine Learning, Efficient AI, and Model Optimization**, with a particular emphasis on translating cutting-edge AI research into practical healthcare solutions.
+Welcome! **Mahir Afser Pavel** is an **AI researcher** dedicated to developing **trustworthy, efficient, and interpretable medical AI**. He currently serves as a **Research Assistant at ELITE Research Lab LLC**, where his research focuses on **medical imaging**, **biomedical informatics**, and **multimodal learning**. He earned a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**. His academic background and research experience provide a solid foundation in **deep learning, computer vision, vision–language models, and explainable artificial intelligence**, all directed toward the overarching mission of advancing AI‑driven safer, and smarter clinical decision support and biomedical innovation.
+
+His research aims to develop **reliable, scalable, and clinically deployable AI systems** that enhance medical decision-making and improve patient care. His work has resulted in **multiple peer-reviewed publications in Q1 journals**, with additional manuscripts currently under review.
+
 
 He is actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where he can contribute to impactful projects while expanding the frontiers of **trustworthy AI for healthcare**.
 
 ---
 # Research Interests
+
+His current interests include **Large Language Models (LLMs)**, **Clinical Natural Language Processing (Clinical NLP)**, **Medical Image Analysis**, **Computer Vision**, **Vision-Language Models (VLMs)**, **Explainable AI (XAI)**, **Federated Learning**, **Trustworthy Machine Learning, Efficient AI, and Model Optimization**
 
 - Artificial Intelligence for Healthcare
 - Large Language Models (LLMs)
