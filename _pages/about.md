@@ -67,7 +67,7 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 
 # Research Interests
 
-- **Artificial Intelligence for Healthcare** • **Computer Vision** • **Medical Image Analysis** • **Natural Language Processing (Clinical NLP)** • **Vision-Language Models (VLMs)** • **Federated Learning** • **Model Optimization & Efficient Deep Learning** • **Explainable Artificial Intelligence (XAI)** • **Edge AI** • **Generative Adversarial Networks (GANs)** • **Graph Neural Networks (GNNs)**
+- Artificial Intelligence for Healthcare • Computer Vision • Medical Image Analysis • Natural Language Processing **(Clinical NLP)** • Vision-Language Models **(VLMs)** • Federated Learning • Model Optimization & Efficient Deep Learning • Explainable Artificial Intelligence **(XAI)** • Edge AI • Generative Adversarial Networks **(GANs)** • Graph Neural Networks **(GNNs)**
 
 # Recent News
 
