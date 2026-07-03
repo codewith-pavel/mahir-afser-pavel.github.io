@@ -56,8 +56,6 @@ For more info
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 -->
 
-# About Me
-
 Welcome! I am **Mahir Afser Pavel**, an AI researcher specializing in trustworthy, efficient, and multimodal artificial intelligence for healthcare. My research focuses on developing intelligent systems that bridge advances in machine learning with real-world clinical applications.
 
 Currently, I work as a **Research Assistant at ELITE Research Lab LLC** and graduated from the **Department of Computer Science and Engineering, North South University, Bangladesh**. I am preparing to pursue a **fully funded Ph.D. in Artificial Intelligence**, with interests spanning clinical language understanding, medical imaging, multimodal learning, and privacy-preserving AI.
