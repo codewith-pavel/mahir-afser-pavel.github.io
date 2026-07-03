@@ -69,35 +69,7 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 
 - **Artificial Intelligence for Healthcare** • **Computer Vision** • **Medical Image Analysis** • **Natural Language Processing (Clinical NLP)** • **Vision-Language Models (VLMs)** • **Federated Learning** • **Model Optimization & Efficient Deep Learning** • **Explainable Artificial Intelligence (XAI)** • **Edge AI** • **Generative Adversarial Networks (GANs)** • **Graph Neural Networks (GNNs)**
 
-(Until above)
-
-# Current Positions
-
-- **Research Assistant**  
-  ELITE Research Lab LLC
-
-- **B.Sc. Graduate**  
-  Department of Computer Science and Engineering  
-  North South University, Bangladesh
-
----
-
-# Featured Research
-
-*A curated selection of recent publications and ongoing research projects.*
-
-➡️ **View all Publications:** `/publications/`
-
-➡️ **View all Projects:** `/portfolio/`
-
----
-
 # Recent News
-
-- 📌 Personal academic website launched.
-- 📄 Research manuscripts under review.
-- 🤝 Continuing research on trustworthy AI for healthcare.
-- 🎯 Preparing Ph.D. applications for 2027.
 
 ---
 
