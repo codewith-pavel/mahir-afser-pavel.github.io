@@ -65,10 +65,35 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 
 ---
 
-(Need to work here)
 # Research Interests
 
+## Relevant Research Interests
+
+- **Artificial Intelligence for Healthcare:** Developing intelligent, trustworthy, and clinically deployable AI systems to improve disease diagnosis, prognosis, treatment planning, and patient care.
+
+- **Computer Vision:** Designing deep learning models for visual perception and automated analysis of biomedical and real-world image data.
+
+- **Medical Image Analysis:** Applying advanced computer vision techniques to medical imaging modalities, including retinal fundus images, CT scans, dental radiographs, and dermoscopic images, for computer-aided diagnosis.
+
+- **Natural Language Processing (Clinical NLP):** Developing language models for clinical text understanding, electronic health record analysis, medical outcome prediction, and multilingual healthcare applications.
+
+- **Vision-Language Models (VLMs):** Building multimodal AI systems that integrate medical images with clinical text to enable context-aware, explainable, and clinically meaningful decision support.
+
+- **Federated Learning:** Investigating privacy-preserving distributed learning frameworks that facilitate collaborative model training across healthcare institutions while safeguarding sensitive patient data.
+
+- **Model Optimization & Efficient Deep Learning:** Enhancing the efficiency, scalability, and deployability of AI models through knowledge distillation, model compression, quantization, lightweight architectures, and efficient training strategies.
+
+- **Explainable Artificial Intelligence (XAI):** Improving the transparency, interpretability, and reliability of AI systems using explainability techniques and uncertainty-aware methods to promote trustworthy clinical adoption.
+
+- **Edge AI:** Developing computationally efficient AI models for deployment on edge devices, enabling real-time healthcare applications in resource-constrained environments.
+
+- **Generative Adversarial Networks (GANs):** Exploring generative deep learning for medical image synthesis, data augmentation, image enhancement, and domain adaptation to improve model robustness.
+
+- **Graph Neural Networks (GNNs):** Leveraging graph-based deep learning to model complex biomedical relationships, structured healthcare data, and interconnected clinical knowledge.
+
 His current interests include **Large Language Models (LLMs)**, **Clinical Natural Language Processing (Clinical NLP)**, **Medical Image Analysis**, **Computer Vision**, **Vision-Language Models (VLMs)**, **Explainable AI (XAI)**, **Federated Learning**, **Trustworthy Machine Learning, Efficient AI, and Model Optimization**
+
+(Need to work here)
 
 - Artificial Intelligence for Healthcare
 - Large Language Models (LLMs)
