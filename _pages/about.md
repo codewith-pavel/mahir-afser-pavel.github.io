@@ -64,6 +64,8 @@ His research aims to develop **reliable, scalable, and clinically deployable AI 
 He is actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where he can contribute to impactful projects while expanding the frontiers of **trustworthy AI for healthcare**.
 
 ---
+
+(Need to work here)
 # Research Interests
 
 His current interests include **Large Language Models (LLMs)**, **Clinical Natural Language Processing (Clinical NLP)**, **Medical Image Analysis**, **Computer Vision**, **Vision-Language Models (VLMs)**, **Explainable AI (XAI)**, **Federated Learning**, **Trustworthy Machine Learning, Efficient AI, and Model Optimization**
