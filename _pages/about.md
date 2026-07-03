@@ -61,7 +61,7 @@ His research aims to develop **trustworthy**, **efficient**, and **clinically re
 
 He is actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where he can contribute to impactful projects while expanding the frontiers of **trustworthy AI for healthcare**.
 ---
-# Relevant Research Interests
+# Research Interests
 
 - Artificial Intelligence for Healthcare
 - Large Language Models (LLMs)
