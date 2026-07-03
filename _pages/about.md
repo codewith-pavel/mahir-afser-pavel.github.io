@@ -74,27 +74,22 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 <table>
   <tr>
     <td><strong>Jul 04, 2026</strong></td>
-    <td>|</td>
     <td>🌐 Launched a new academic web presence to showcase my research portfolio, publications, projects, and contributions to open scientific work.</td>
   </tr>
   <tr>
     <td><strong>Jun 16, 2026</strong></td>
-    <td>|</td>
     <td>📄 Submitted a federated, explainable deep learning framework for medical image analysis to a high-impact international journal.</td>
   </tr>
   <tr>
     <td><strong>Jun 10, 2026</strong></td>
-    <td>|</td>
     <td>🎓 Initiated applications for fully funded PhD programs in Computer Science, with research interests spanning large language models, vision-language models, medical AI, and explainable AI.</td>
   </tr>
   <tr>
     <td><strong>May 27, 2026</strong></td>
-    <td>|</td>
     <td>📚 Updated my publication record with recent work on clinical NLP, multimodal medical imaging, knowledge distillation, and trustworthy AI.</td>
   </tr>
   <tr>
     <td><strong>Jan 07, 2026</strong></td>
-    <td>|</td>
     <td>🚀 Expanded my research agenda toward trustworthy multimodal AI by integrating explainability and efficient deep learning methods for healthcare applications.</td>
   </tr>
 </table>
