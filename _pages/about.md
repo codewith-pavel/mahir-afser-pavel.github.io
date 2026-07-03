@@ -56,13 +56,7 @@ For more info
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 -->
 
-Welcome! My name is **Mahir Afser Pavel**, an **AI researcher** dedicated to developing **trustworthy, efficient, and multimodal artificial intelligence for healthcare**.  
-
-I am currently serving as a **Research Assistant at the ELITE Research Lab (USA)**, where I focus on advancing **medical imaging** and **clinical AI applications**.  
-
-I earned my **Bachelor of Science in Computer Science and Engineering** from **North South University, Bangladesh**, graduating **Magna Cum Laude** with a **CGPA of 3.71**.  
-
-My academic journey and research experience have equipped me with strong expertise in **deep learning, computer vision, and vision–language models**, with a particular emphasis on **healthcare innovation**.
+Welcome! My name is **Mahir Afser Pavel**, an **AI researcher** dedicated to developing **trustworthy, efficient, and multimodal artificial intelligence for healthcare**. I am currently serving as a **Research Assistant at the ELITE Research Lab (USA)**, where I focus on advancing **medical imaging** and **clinical AI applications**. I earned my **Bachelor of Science in Computer Science and Engineering** from **North South University, Bangladesh**, graduating **Magna Cum Laude** with a **CGPA of 3.71**. My academic journey and research experience have equipped me with strong expertise in **deep learning, computer vision, and vision–language models**, with a particular emphasis on **healthcare innovation**.
 
 I am also **actively seeking research opportunities** in the form of **internships, PhD positions, or volunteering roles**, where I can contribute to impactful projects and further develop my expertise.
 
