@@ -109,22 +109,23 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 
 # Visitor Map
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<div id="visitor-map" style="height: 320px; border-radius: 12px; overflow: hidden; border: 1px solid #d0d7de; margin-top: 0.75rem;"></div>
+<div style="border: 1px solid #d0d7de; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06); background: #ffffff;">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <div id="visitor-map" style="height: 320px;"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      if (typeof L !== "undefined") {
+        var map = L.map("visitor-map", { zoomControl: true }).setView([23.8103, 90.4125], 2);
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: "&copy; OpenStreetMap contributors"
+        }).addTo(map);
+        L.marker([23.8103, 90.4125]).addTo(map).bindPopup("Dhaka, Bangladesh").openPopup();
+      }
+    });
+  </script>
+</div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (typeof L !== "undefined") {
-      var map = L.map("visitor-map", { zoomControl: true }).setView([23.8103, 90.4125], 2);
-      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-        attribution: "&copy; OpenStreetMap contributors"
-      }).addTo(map);
-      L.marker([23.8103, 90.4125]).addTo(map).bindPopup("Dhaka, Bangladesh").openPopup();
-    }
-  });
-</script>
-
-<p style="margin-top: 0.6rem; color: #57606a; font-size: 0.95rem;">This shows an interactive map view. For a true live visitor map, you can later connect it to analytics such as Umami or Google Analytics.</p>
+<p style="margin-top: 0.7rem; color: #57606a; font-size: 0.95rem;">A lightweight interactive world map for your homepage. For a true live visitor analytics map, it can later be connected to services such as Umami or Google Analytics.</p>
 
 ---
