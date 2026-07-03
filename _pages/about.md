@@ -60,10 +60,8 @@ Welcome! **Mahir Afser Pavel** is an **AI researcher** dedicated to developing *
 His research aims to develop **trustworthy**, **efficient**, and **clinically relevant AI systems** that improve medical decision-making and patient care. His current interests include **Large Language Models (LLMs)**, **Clinical Natural Language Processing (Clinical NLP)**, **Medical Image Analysis**, **Computer Vision**, **Vision-Language Models (VLMs)**, **Explainable AI (XAI)**, **Federated Learning**, **Trustworthy Machine Learning, Efficient AI, and Model Optimization**, with a particular emphasis on translating cutting-edge AI research into practical healthcare solutions.
 
 He is actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where he can contribute to impactful projects while expanding the frontiers of **trustworthy AI for healthcare**.
-
 ---
-
-# Research Interests
+# Relevant Research Interests
 
 ### 🧠 Large Language Models (LLMs)
 Developing efficient and trustworthy language models for clinical reasoning, multilingual healthcare applications, and medical decision support.
