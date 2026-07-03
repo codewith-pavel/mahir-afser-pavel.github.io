@@ -101,12 +101,63 @@ I am actively seeking **research internships**, **fully funded Ph.D. opportuniti
 
 (Will be updated soon)
 
-- 📄 [Publications](/publications/)
-- 💻 [Research Projects](/portfolio/)
-- 📑 [Curriculum Vitae](/cv/)
-- 🎤 [Talks & Presentations](/talks/)
-- 📰 [News](/posts/)
-- 📬 [Contact](mailto:mahir.pavel@gmail.com)
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:1rem;">
+
+<a href="/publications/" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid #d0d7de;border-radius:12px;padding:18px;background:#fff;height:100%;">
+<h3 style="margin:0;">📄 Publications</h3>
+<p style="margin:8px 0 0;color:#57606a;">
+Journal articles, conference papers, and preprints.
+</p>
+</div>
+</a>
+
+<a href="/portfolio/" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid #d0d7de;border-radius:12px;padding:18px;background:#fff;height:100%;">
+<h3 style="margin:0;">💻 Research Projects</h3>
+<p style="margin:8px 0 0;color:#57606a;">
+Research projects, software, and open-source contributions.
+</p>
+</div>
+</a>
+
+<a href="/cv/" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid #d0d7de;border-radius:12px;padding:18px;background:#fff;height:100%;">
+<h3 style="margin:0;">📑 Curriculum Vitae</h3>
+<p style="margin:8px 0 0;color:#57606a;">
+Education, research experience, publications, and skills.
+</p>
+</div>
+</a>
+
+<a href="/talks/" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid #d0d7de;border-radius:12px;padding:18px;background:#fff;height:100%;">
+<h3 style="margin:0;">🎤 Talks & Presentations</h3>
+<p style="margin:8px 0 0;color:#57606a;">
+Invited talks, seminars, workshops, and conference presentations.
+</p>
+</div>
+</a>
+
+<a href="/posts/" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid #d0d7de;border-radius:12px;padding:18px;background:#fff;height:100%;">
+<h3 style="margin:0;">📰 News</h3>
+<p style="margin:8px 0 0;color:#57606a;">
+Latest research updates, publications, and academic activities.
+</p>
+</div>
+</a>
+
+<a href="mailto:mahir.pavel@gmail.com" style="text-decoration:none;color:inherit;">
+<div style="border:1px solid #d0d7de;border-radius:12px;padding:18px;background:#fff;height:100%;">
+<h3 style="margin:0;">📬 Contact</h3>
+<p style="margin:8px 0 0;color:#57606a;">
+Get in touch for research collaborations or academic inquiries.
+</p>
+</div>
+</a>
+
+</div>
 
 ---
 # Visitor Map
