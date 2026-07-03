@@ -56,9 +56,13 @@ For more info
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 -->
 
-Welcome! My name is **Mahir Afser Pavel**, an **AI researcher** dedicated to developing **trustworthy, efficient, and multimodal artificial intelligence for healthcare**. I am currently serving as a **Research Assistant at the ELITE Research Lab (USA)**, where I focus on advancing **medical imaging** and **clinical AI applications**. I earned my **Bachelor of Science in Computer Science and Engineering** from **North South University, Bangladesh**, graduating **Magna Cum Laude** with a **CGPA of 3.71**. My academic journey and research experience have equipped me with strong expertise in **deep learning, computer vision, and vision–language models**, with a particular emphasis on **healthcare innovation**.
+Welcome! **Mahir Afser Pavel** is an **AI researcher** dedicated to developing **trustworthy, efficient, and multimodal artificial intelligence for healthcare**. He currently serves as a **Research Assistant at ELITE Research Lab LLC (USA)**, where his research focuses on **medical imaging**, **clinical artificial intelligence**, and **multimodal learning**. He earned a **Bachelor of Science in Computer Science and Engineering** from **North South University, Bangladesh**, graduating **Magna Cum Laude**. His academic background and research experience have equipped him with strong expertise in **deep learning**, **computer vision**, **large language models**, **vision-language models**, and **explainable artificial intelligence**, with the overarching goal of advancing **AI-driven healthcare innovation**.
 
-I am also **actively seeking research opportunities** in the form of **internships, PhD positions, or volunteering roles**, where I can contribute to impactful projects and further develop my expertise.
+His research aims to develop **trustworthy**, **efficient**, and **clinically relevant AI systems** that improve medical decision-making and patient care. His current interests include **Large Language Models (LLMs)**, **Clinical Natural Language Processing (Clinical NLP)**, **Medical Imaging**, **Computer Vision**, **Vision-Language Models (VLMs)**, **Explainable AI (XAI)**, **Federated Learning**, and **AI Optimization**, with a particular emphasis on translating cutting-edge AI research into practical healthcare solutions.
+
+He is actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where he can contribute to impactful projects while expanding the frontiers of **trustworthy AI for healthcare**.
+
+
 
 ---
 
