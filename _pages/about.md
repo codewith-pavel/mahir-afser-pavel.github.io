@@ -56,12 +56,11 @@ For more info
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 -->
 
-Welcome! **Mahir Afser Pavel** is an **AI researcher** dedicated to developing **trustworthy, efficient, and interpretable medical artificial intelligence**. He currently serves as a **Research Assistant at ELITE Research Lab LLC**, where his research focuses on **medical imaging**, **biomedical informatics**, and **multimodal learning**. He earned a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**. His academic background and research experience have provided a solid foundation in **deep learning, computer vision, vision–language models (VLMs), and explainable artificial intelligence (XAI)**, all directed toward the overarching mission of advancing AI-driven clinical decision support and biomedical innovation through safer and smarter intelligent systems.
+Welcome! I am **Mahir Afser Pavel**, an **AI researcher** focused on developing **trustworthy, efficient, and interpretable medical artificial intelligence**. I currently serve as a **Research Assistant at ELITE Research Lab LLC**, where my work centers on **medical imaging**, **biomedical informatics**, and **multimodal learning**. I hold a **Bachelor of Science in Computer Science and Engineering** from **North South University**, graduating **Magna Cum Laude**, and I have built a strong foundation in **deep learning, computer vision, vision–language models (VLMs), and explainable AI (XAI)**.
 
-His research aims to develop **reliable, scalable, and clinically deployable AI systems** that enhance medical decision-making and improve patient care. His work has resulted in **multiple peer-reviewed publications in Q1 journals**, with additional manuscripts currently under review.
+My research aims to create **reliable, scalable, and clinically deployable AI systems** that support medical decision-making and improve patient care. My work has contributed to **peer-reviewed publications in Q1 journals**, and I continue to expand my research agenda through interdisciplinary collaboration and innovation in **trustworthy AI for healthcare**.
 
-
-He is actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where he can contribute to impactful projects while expanding the frontiers of **trustworthy AI for healthcare**.
+I am actively seeking **research internships**, **fully funded Ph.D. opportunities**, and **international research collaborations** where I can contribute to impactful projects and continue advancing the field.
 
 ---
 
@@ -97,35 +96,32 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 ---
 
 # Explore
-(It will be updated soon!)
-- 📄 Publications
-- 💻 Research Projects
-- 📑 Curriculum Vitae
-- 🎤 Talks & Presentations
-- 📰 News
-- 📬 Contact
+
+- 📄 [Publications](/publications/)
+- 💻 [Research Projects](/portfolio/)
+- 📑 [Curriculum Vitae](/cv/)
+- 🎤 [Talks & Presentations](/talks/)
+- 📰 [News](/posts/)
+- 📬 [Contact](mailto:mahir.pavel@gmail.com)
 
 ---
-
 # Visitor Map
 
-<div style="border: 1px solid #d0d7de; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06); background: #ffffff;">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <div id="visitor-map" style="height: 320px;"></div>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      if (typeof L !== "undefined") {
-        var map = L.map("visitor-map", { zoomControl: true }).setView([23.8103, 90.4125], 2);
-        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-          attribution: "&copy; OpenStreetMap contributors"
-        }).addTo(map);
-        L.marker([23.8103, 90.4125]).addTo(map).bindPopup("Dhaka, Bangladesh").openPopup();
-      }
-    });
-  </script>
+<div align="center" style="margin: 1.5rem 0;">
+
+<script
+    type="text/javascript"
+    id="mapmyvisitors"
+    src="//mapmyvisitors.com/map.js?d=ZSNQDmdE1ocYaRhs-Y0Yb15_NI3ijNc8nbDKJLR_oik&cl=ffffff&w=a">
+</script>
+
 </div>
 
-<p style="margin-top: 0.7rem; color: #57606a; font-size: 0.95rem;">A lightweight interactive world map for your homepage. For a true live visitor analytics map, it can later be connected to services such as Umami or Google Analytics.</p>
+<p align="center">
+  <sub>
+    Visitor locations and statistics are powered by
+    <a href="https://mapmyvisitors.com/web/1c67m" target="_blank">MapMyVisitors</a>.
+  </sub>
+</p>
 
 ---
