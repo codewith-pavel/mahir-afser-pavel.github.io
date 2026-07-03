@@ -125,7 +125,6 @@ Get in touch for research collaborations or academic inquiries.
 
 ---
 
-
 <p align="center">
   <sub>
     Visitor locations and statistics are powered by
