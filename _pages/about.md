@@ -63,6 +63,26 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 ---
 # Relevant Research Interests
 
+- Artificial Intelligence for Healthcare
+- Large Language Models (LLMs)
+- Clinical Natural Language Processing (Clinical NLP)
+- Vision-Language Models (VLMs)
+- Medical Imaging
+- Computer Vision
+- Explainable Artificial Intelligence (XAI)
+- Trustworthy Artificial Intelligence
+- Federated Learning
+- Privacy-Preserving Machine Learning
+- Efficient Deep Learning
+- AI Optimization
+- Knowledge Distillation
+- Edge AI
+- Multimodal Artificial Intelligence
+- Medical Foundation Models
+- Clinical Decision Support Systems
+- Biomedical Machine Learning
+# Relevant Research Interests
+
 ### 🧠 Large Language Models (LLMs)
 Developing efficient and trustworthy language models for clinical reasoning, multilingual healthcare applications, and medical decision support.
 
