@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Myself"
+title: "Bio"
 author_profile: true
 redirect_from: 
   - /about/
@@ -70,6 +70,8 @@ I am actively seeking **research internships**, **fully funded Ph.D. opportuniti
 
 # Recent News
 
+(Will be updated soon)
+
 <table>
   <tr>
     <td><strong>Jul 04, 2026</strong></td>
@@ -97,6 +99,8 @@ I am actively seeking **research internships**, **fully funded Ph.D. opportuniti
 
 # Explore
 
+(Will be updated soon)
+
 - 📄 [Publications](/publications/)
 - 💻 [Research Projects](/portfolio/)
 - 📑 [Curriculum Vitae](/cv/)
@@ -117,11 +121,12 @@ I am actively seeking **research internships**, **fully funded Ph.D. opportuniti
 
 </div>
 
+---
+
+
 <p align="center">
   <sub>
     Visitor locations and statistics are powered by
     <a href="https://mapmyvisitors.com/web/1c67m" target="_blank">MapMyVisitors</a>.
   </sub>
 </p>
-
----
