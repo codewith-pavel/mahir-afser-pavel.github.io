@@ -71,15 +71,15 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 
 # Recent News
 
-Jul 04, 2026 | 🌐 Launched my new academic website to showcase my research, publications, projects, and open-source contributions.
+Jul 04, 2026 | 🌐 Launched a new academic web presence to highlight my research portfolio, publications, projects, and contributions to open scientific work.
 
-Jun 16, 2026 | 📄 Submitted our federated explainable deep learning framework for medical image analysis to a high-impact international journal.
+Jun 16, 2026 | 📄 Submitted a federated, explainable deep learning framework for medical image analysis to a high-impact international journal.
 
-Jun 10, 2026 | 🎓 Began preparing applications for fully funded PhD programs in Computer Science, focusing on Large Language Models, Vision-Language Models, Medical AI, and Explainable AI.
+Jun 10, 2026 | 🎓 Initiated applications for fully funded PhD programs in Computer Science, with focus areas spanning large language models, vision-language models, medical AI, and explainable AI.
 
-May 27, 2026 | 📚 Updated my publication list with recent research on Clinical NLP, multimodal medical imaging, knowledge distillation, and trustworthy AI.
+May 27, 2026 | 📚 Updated my publication record with recent work on clinical NLP, multimodal medical imaging, knowledge distillation, and trustworthy AI.
 
-Jan 07, 2026 | 🚀 Expanded my research toward trustworthy multimodal AI by integrating explainability and efficient deep learning techniques for healthcare applications.
+Jan 07, 2026 | 🚀 Expanded my research trajectory toward trustworthy multimodal AI by integrating explainability and efficient deep learning methods for healthcare applications.
 
 ---
 
@@ -99,15 +99,3 @@ Jan 07, 2026 | 🚀 Expanded my research toward trustworthy multimodal AI by int
 *A live visitor map will appear here.*
 
 ---
-
-# Contact
-
-📧 Email: mahir.pavel@gmail.com
-
-🔗 Google Scholar
-
-🔗 ORCID
-
-🔗 GitHub
-
-🔗 LinkedIn
