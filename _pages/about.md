@@ -67,6 +67,9 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 
 # Research Interests
 
+**Artificial Intelligence for Healthcare**, **Computer Vision**, **Medical Image Analysis**, **Natural Language Processing (Clinical NLP)**, **Vision-Language Models (VLMs)**, **Federated Learning**, **Model Optimization & Efficient Deep Learning**, **Explainable Artificial Intelligence (XAI)**, **Edge AI**, **Generative Adversarial Networks (GANs)**, and **Graph Neural Networks (GNNs)**.
+
+(Until above)
 ## Relevant Research Interests
 
 - **Artificial Intelligence for Healthcare:** Developing intelligent, trustworthy, and clinically deployable AI systems to improve disease diagnosis, prognosis, treatment planning, and patient care.
