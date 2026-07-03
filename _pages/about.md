@@ -71,15 +71,15 @@ He is actively seeking **research internships**, **fully funded Ph.D. opportunit
 
 # Recent News
 
-Jul 04, 2026 | 🌐 Launched a new academic web presence to highlight my research portfolio, publications, projects, and contributions to open scientific work.
+- <strong>Jul 04, 2026</strong> | 🌐 Launched a new academic web presence to showcase my research portfolio, publications, projects, and contributions to open scientific work.
 
-Jun 16, 2026 | 📄 Submitted a federated, explainable deep learning framework for medical image analysis to a high-impact international journal.
+- <strong>Jun 16, 2026</strong> | 📄 Submitted a federated, explainable deep learning framework for medical image analysis to a high-impact international journal.
 
-Jun 10, 2026 | 🎓 Initiated applications for fully funded PhD programs in Computer Science, with focus areas spanning large language models, vision-language models, medical AI, and explainable AI.
+- <strong>Jun 10, 2026</strong> | 🎓 Initiated applications for fully funded PhD programs in Computer Science, with research interests spanning large language models, vision-language models, medical AI, and explainable AI.
 
-May 27, 2026 | 📚 Updated my publication record with recent work on clinical NLP, multimodal medical imaging, knowledge distillation, and trustworthy AI.
+- <strong>May 27, 2026</strong> | 📚 Updated my publication record with recent work on clinical NLP, multimodal medical imaging, knowledge distillation, and trustworthy AI.
 
-Jan 07, 2026 | 🚀 Expanded my research trajectory toward trustworthy multimodal AI by integrating explainability and efficient deep learning methods for healthcare applications.
+- <strong>Jan 07, 2026</strong> | 🚀 Expanded my research agenda toward trustworthy multimodal AI by integrating explainability and efficient deep learning methods for healthcare applications.
 
 ---
 
