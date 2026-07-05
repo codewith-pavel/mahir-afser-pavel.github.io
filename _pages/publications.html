@@ -10,29 +10,19 @@ author_profile: true
 <link rel="stylesheet" href="{{ '/assets/css/publications-portal.css' | relative_url }}">
 
 <div class="publication-header">
-  <p>I am broadly interested in advancing 
-    artificial intelligence through research in computer 
-    vision, natural language processing, and AI-driven 
-    healthcare applications. My work has accumulated
-    <strong>70+ citations</strong> across <strong>five
-    Q1 journal publications and a Q2 
-    journal publication</strong>, published in <strong>
-    four SCIE-indexed</strong> and <strong>two 
-    ESCI-indexed</strong> journals. I currently 
-    have an <strong>h-index of 2</strong> and an 
-    <strong>i10-index of 2</strong>. In addition to my
-    published work, I have several manuscripts currently
-    <strong>under review</strong> at peer-reviewed journals.
-    <strong>All publication details, including published, 
-and under-review manuscripts, are showcased below.</strong>
-  </p>
+  <div class="publication-header__content">
+    <p>I am broadly interested in advancing artificial intelligence through research in computer vision, natural language processing, and AI-driven healthcare applications. My work has accumulated <strong>70+ citations</strong> across <strong>five Q1 journal publications and a Q2 journal publication</strong>, published in <strong>four SCIE-indexed</strong> and <strong>two ESCI-indexed</strong> journals. I currently have an <strong>h-index of 2</strong> and an <strong>i10-index of 2</strong>, with several manuscripts currently <strong>under review</strong> at peer-reviewed journals.</p>
+    <div class="publication-stats">
+      <div class="publication-stat"><strong>70+</strong><span>Citations</span></div>
+      <div class="publication-stat"><strong>6</strong><span>Journal Papers</span></div>
+      <div class="publication-stat"><strong>5</strong><span>Q1 Publications</span></div>
+      <div class="publication-stat"><strong>2</strong><span>h-index</span></div>
+    </div>
+  </div>
   {% if site.author.googlescholar %}
-  <p>
-    View my complete publication record on
-    <a href="{{ site.author.googlescholar }}" target="_blank">
-      Google Scholar!
-    </a>
-  </p>
+  <div class="publication-header__actions">
+    <a href="{{ site.author.googlescholar }}" target="_blank">Google Scholar</a>
+  </div>
   {% endif %}
 </div>
 
@@ -44,38 +34,98 @@ and under-review manuscripts, are showcased below.</strong>
       </div>
       <div class="publication-portal__filters">
         <button class="publication-filter is-active" data-filter="all">All</button>
+        <button class="publication-filter" data-filter="published">Published</button>
+        <button class="publication-filter" data-filter="review">Under Review</button>
         <button class="publication-filter" data-filter="journal">Journal</button>
         <button class="publication-filter" data-filter="conference">Conference</button>
-        <button class="publication-filter" data-filter="review">Under Review</button>
       </div>
     </div>
   </div>
 
+  {% assign published_items = site.publications | where_exp: "item", "item.category != 'under-review'" | sort: "date" | reverse %}
+  {% assign featured_item = published_items | first %}
+
+  {% if featured_item %}
+  <section class="publication-portal__section publication-portal__section--featured">
+    <div class="publication-portal__section-header">
+      <span class="publication-portal__eyebrow">Featured Publication</span>
+      <h2>Spotlight</h2>
+      <p>One of the most representative works from my recent research portfolio.</p>
+    </div>
+    <article class="publication-card publication-card--featured" data-category="{% if featured_item.category == 'conferences' %}conference{% else %}journal{% endif %}" data-status="published">
+      <div class="publication-card__visual">
+        <span class="publication-card__pill publication-card__pill--featured">Featured</span>
+        <span class="publication-card__pill publication-card__pill--status">{{ featured_item.quartile | default: 'Research' }}</span>
+      </div>
+      <div class="publication-card__body">
+        <div class="publication-card__badges">
+          <span class="publication-card__badge publication-card__badge--status">Published</span>
+          <span class="publication-card__badge publication-card__badge--quartile">{{ featured_item.quartile | default: 'TBD' }}</span>
+          <span class="publication-card__badge publication-card__badge--role">{{ featured_item.role | default: 'First Author' }}</span>
+        </div>
+        <h3>{{ featured_item.title }}</h3>
+        <p class="publication-card__authors">{{ featured_item.authors | truncate: 90 }}</p>
+        <p class="publication-card__venue">{{ featured_item.venue | default: 'Research Publication' }} • {{ featured_item.year | default: featured_item.date | date: "%Y" }}</p>
+        <p class="publication-card__excerpt">{{ featured_item.excerpt | strip_html | truncate: 180 }}</p>
+        <div class="publication-card__taglist">
+          {% assign featured_keywords = featured_item.keywords | default: nil %}
+          {% if featured_keywords %}
+            {% for keyword in featured_keywords limit: 4 %}
+              <span class="publication-card__tag">{{ keyword }}</span>
+            {% endfor %}
+          {% else %}
+            <span class="publication-card__tag">AI</span>
+            <span class="publication-card__tag">Healthcare</span>
+            <span class="publication-card__tag">Research</span>
+          {% endif %}
+        </div>
+        <div class="publication-card__actions">
+          {% if featured_item.paperurl %}<a class="publication-card__action" href="{{ featured_item.paperurl }}" target="_blank">Paper</a>{% endif %}
+          {% if featured_item.permalink %}<a class="publication-card__action" href="{{ featured_item.permalink | relative_url }}">Details</a>{% endif %}
+          {% if featured_item.bibtexurl %}<a class="publication-card__action" href="{{ featured_item.bibtexurl }}" target="_blank">BibTeX</a>{% endif %}
+        </div>
+      </div>
+    </article>
+  </section>
+  {% endif %}
+
   <section class="publication-portal__section">
+    <div class="publication-portal__section-header">
+      <span class="publication-portal__eyebrow publication-portal__eyebrow--published">Published Papers</span>
+      <h2>Published work</h2>
+      <p>Peer-reviewed journal publications and conference contributions.</p>
+    </div>
     <div class="publication-portal__cards" id="publishedCards">
-      {% assign published_items = site.publications | where_exp: "item", "item.category != 'under-review'" | sort: "date" | reverse %}
       {% if published_items.size > 0 %}
         {% for post in published_items %}
-          <article class="publication-card" data-category="{% if post.category == 'conferences' %}conference{% else %}journal{% endif %}">
-            <div class="publication-card__image">
-              <span class="publication-card__badge">Featured</span>
+          <article class="publication-card" data-category="{% if post.category == 'conferences' %}conference{% else %}journal{% endif %}" data-status="published">
+            <div class="publication-card__visual">
+              <span class="publication-card__pill publication-card__pill--status">{{ post.quartile | default: 'Published' }}</span>
             </div>
             <div class="publication-card__body">
-              <div class="publication-card__meta">
-                <span class="publication-card__status">Published</span>
-                <span class="publication-card__quartile">{{ post.category | replace: 'conferences', 'Conference' | replace: 'manuscripts', 'Journal' }}</span>
+              <div class="publication-card__badges">
+                <span class="publication-card__badge publication-card__badge--status">Published</span>
+                <span class="publication-card__badge publication-card__badge--quartile">{{ post.quartile | default: 'TBD' }}</span>
+                <span class="publication-card__badge publication-card__badge--role">{{ post.role | default: 'First Author' }}</span>
               </div>
               <h3>{{ post.title }}</h3>
-              <p class="publication-card__authors">Mahir Afser Pavel</p>
-              <p class="publication-card__venue">{{ post.venue | default: 'Research Publication' }} · {{ post.date | date: "%Y" }}</p>
-              <p class="publication-card__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-              <div class="publication-card__tags">
-                <span class="publication-card__tag">Clinical NLP</span>
-                <span class="publication-card__tag">LLMs</span>
-                <span class="publication-card__tag">XAI</span>
+              <p class="publication-card__authors">{{ post.authors | truncate: 90 }}</p>
+              <p class="publication-card__venue">{{ post.venue | default: 'Research Publication' }} • {{ post.year | default: post.date | date: "%Y" }}</p>
+              <p class="publication-card__excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+              <div class="publication-card__taglist">
+                {% assign keyword_list = post.keywords | default: nil %}
+                {% if keyword_list %}
+                  {% for keyword in keyword_list limit: 3 %}
+                    <span class="publication-card__tag">{{ keyword }}</span>
+                  {% endfor %}
+                {% else %}
+                  <span class="publication-card__tag">AI</span>
+                  <span class="publication-card__tag">Healthcare</span>
+                  <span class="publication-card__tag">Research</span>
+                {% endif %}
               </div>
               <div class="publication-card__actions">
-                {% if post.paperurl %}<a class="publication-card__action" href="{{ post.paperurl }}" target="_blank">PDF</a>{% endif %}
+                {% if post.paperurl %}<a class="publication-card__action" href="{{ post.paperurl }}" target="_blank">Paper</a>{% endif %}
                 {% if post.permalink %}<a class="publication-card__action" href="{{ post.permalink | relative_url }}">Details</a>{% endif %}
                 {% if post.bibtexurl %}<a class="publication-card__action" href="{{ post.bibtexurl }}" target="_blank">BibTeX</a>{% endif %}
               </div>
@@ -89,20 +139,28 @@ and under-review manuscripts, are showcased below.</strong>
   </section>
 
   <section class="publication-portal__section">
+    <div class="publication-portal__section-header">
+      <span class="publication-portal__eyebrow publication-portal__eyebrow--review">Under Review</span>
+      <h2>Manuscripts under review</h2>
+      <p>Recent submissions that are currently progressing through peer review.</p>
+    </div>
     <div class="publication-portal__cards" id="reviewCards">
       {% assign review_items = site.publications | where_exp: "item", "item.category == 'under-review'" %}
       {% if review_items.size > 0 %}
         {% for post in review_items %}
-          <article class="publication-card" data-category="review">
-            <div class="publication-card__image"></div>
+          <article class="publication-card publication-card--review" data-category="review" data-status="review">
+            <div class="publication-card__visual publication-card__visual--review">
+              <span class="publication-card__pill publication-card__pill--review">Under Review</span>
+            </div>
             <div class="publication-card__body">
-              <div class="publication-card__meta">
-                <span class="publication-card__status">Under Review</span>
+              <div class="publication-card__badges">
+                <span class="publication-card__badge publication-card__badge--status">Under Review</span>
+                <span class="publication-card__badge publication-card__badge--quartile">{{ post.quartile | default: 'Pending' }}</span>
               </div>
               <h3>{{ post.title }}</h3>
-              <p class="publication-card__authors">Mahir Afser Pavel</p>
-              <p class="publication-card__venue">{{ post.venue | default: 'Submission in progress' }}</p>
-              <p class="publication-card__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+              <p class="publication-card__authors">{{ post.authors | truncate: 90 }}</p>
+              <p class="publication-card__venue">{{ post.venue | default: 'Submission in progress' }} • {{ post.year | default: post.date | date: "%Y" }}</p>
+              <p class="publication-card__excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
               <div class="publication-card__actions">
                 {% if post.permalink %}<a class="publication-card__action" href="{{ post.permalink | relative_url }}">Details</a>{% endif %}
               </div>
@@ -130,12 +188,20 @@ and under-review manuscripts, are showcased below.</strong>
         const text = card.textContent.toLowerCase();
         const matchesQuery = !query || text.includes(query);
         const category = card.dataset.category || 'journal';
-        const matchesFilter = active === 'all' || (active === 'journal' && category === 'journal') || (active === 'conference' && category === 'conference') || (active === 'review' && category === 'review');
+        const status = card.dataset.status || 'published';
+        const matchesFilter = active === 'all'
+          || (active === 'published' && status === 'published')
+          || (active === 'review' && status === 'review')
+          || (active === 'journal' && category === 'journal')
+          || (active === 'conference' && category === 'conference');
         card.style.display = matchesQuery && matchesFilter ? '' : 'none';
       });
     }
 
-    searchInput.addEventListener('input', applyFilters);
+    if (searchInput) {
+      searchInput.addEventListener('input', applyFilters);
+    }
+
     filters.forEach(function (filter) {
       filter.addEventListener('click', function () {
         filters.forEach(function (item) { item.classList.remove('is-active'); });
