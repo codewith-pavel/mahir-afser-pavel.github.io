@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Research Profile"
 permalink: /publications/
 author_profile: true
 ---
@@ -36,6 +36,9 @@ author_profile: true
 
 <hr>
 
+<h2>Publications</h2>
+<hr>
+
 {% if site.publication_category %}
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
@@ -45,7 +48,7 @@ author_profile: true
       {% endif %}
 
       {% unless title_shown %}
-      <h2>{{ category[1].title }}</h2>
+      <h3>{{ category[1].title }}</h3>
       <hr>
       {% assign title_shown = true %}
       {% endunless %}
@@ -58,6 +61,13 @@ author_profile: true
       {% include archive-single.html %}
   {% endfor %}
 {% endif %}
+
+<hr>
+
+<h2>Under review</h2>
+<hr>
+
+<p>No manuscripts are currently under review.</p>
 
 
 
