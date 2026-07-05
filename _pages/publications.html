@@ -53,8 +53,6 @@ and under-review manuscripts, are showcased below.</strong>
 
   <section class="publication-portal__section">
     <div class="publication-portal__section-header">
-      <h2>Publications</h2>
-      <p>Featured and recent work</p>
     </div>
     <div class="publication-portal__cards" id="publishedCards">
       {% assign published_items = site.publications | where_exp: "item", "item.category != 'under-review'" | sort: "date" | reverse %}
@@ -94,8 +92,6 @@ and under-review manuscripts, are showcased below.</strong>
 
   <section class="publication-portal__section">
     <div class="publication-portal__section-header">
-      <h2>Under review</h2>
-      <p>Manuscripts in progress</p>
     </div>
     <div class="publication-portal__cards" id="reviewCards">
       {% assign review_items = site.publications | where_exp: "item", "item.category == 'under-review'" %}
