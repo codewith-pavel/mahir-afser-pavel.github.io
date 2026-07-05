@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+<link rel="stylesheet" href="{{ '/assets/css/publications-portal.css' | relative_url }}">
+
 <div class="publication-header">
   <p>I am broadly interested in advancing 
     artificial intelligence through research in computer 
@@ -22,7 +24,7 @@ author_profile: true
     published work, I have several manuscripts currently
     <strong>under review</strong> at peer-reviewed journals.
     <strong>All publication details, including published, 
-    and under-review manuscripts, are showcased below.</strong>
+and under-review manuscripts, are showcased below.</strong>
   </p>
   {% if site.author.googlescholar %}
   <p>
@@ -34,38 +36,121 @@ author_profile: true
   {% endif %}
 </div>
 
-<hr>
+<div class="publication-portal">
+  <div class="publication-portal__intro">
+    <div class="publication-portal__toolbar">
+      <div class="publication-portal__search">
+        <input type="text" id="publicationSearch" placeholder="Search by title, author, venue, or keyword">
+      </div>
+      <div class="publication-portal__filters">
+        <button class="publication-filter is-active" data-filter="all">All</button>
+        <button class="publication-filter" data-filter="journal">Journal</button>
+        <button class="publication-filter" data-filter="conference">Conference</button>
+        <button class="publication-filter" data-filter="review">Under Review</button>
+      </div>
+    </div>
+  </div>
 
-<h2>Publications</h2>
-<hr>
-
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+  <section class="publication-portal__section">
+    <div class="publication-portal__section-header">
+      <h2>Publications</h2>
+      <p>Featured and recent work</p>
+    </div>
+    <div class="publication-portal__cards" id="publishedCards">
+      {% assign published_items = site.publications | where_exp: "item", "item.category != 'under-review'" | sort: "date" | reverse %}
+      {% if published_items.size > 0 %}
+        {% for post in published_items %}
+          <article class="publication-card" data-category="{% if post.category == 'conferences' %}conference{% else %}journal{% endif %}">
+            <div class="publication-card__image">
+              <span class="publication-card__badge">Featured</span>
+            </div>
+            <div class="publication-card__body">
+              <div class="publication-card__meta">
+                <span class="publication-card__status">Published</span>
+                <span class="publication-card__quartile">{{ post.category | replace: 'conferences', 'Conference' | replace: 'manuscripts', 'Journal' }}</span>
+              </div>
+              <h3>{{ post.title }}</h3>
+              <p class="publication-card__authors">Mahir Afser Pavel</p>
+              <p class="publication-card__venue">{{ post.venue | default: 'Research Publication' }} · {{ post.date | date: "%Y" }}</p>
+              <p class="publication-card__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+              <div class="publication-card__tags">
+                <span class="publication-card__tag">Clinical NLP</span>
+                <span class="publication-card__tag">LLMs</span>
+                <span class="publication-card__tag">XAI</span>
+              </div>
+              <div class="publication-card__actions">
+                {% if post.paperurl %}<a class="publication-card__action" href="{{ post.paperurl }}" target="_blank">PDF</a>{% endif %}
+                {% if post.permalink %}<a class="publication-card__action" href="{{ post.permalink | relative_url }}">Details</a>{% endif %}
+                {% if post.bibtexurl %}<a class="publication-card__action" href="{{ post.bibtexurl }}" target="_blank">BibTeX</a>{% endif %}
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+      {% else %}
+        <div class="publication-portal__empty">No published publications available yet.</div>
       {% endif %}
+    </div>
+  </section>
 
-      {% unless title_shown %}
-      {% assign title_shown = true %}
-      {% endunless %}
+  <section class="publication-portal__section">
+    <div class="publication-portal__section-header">
+      <h2>Under review</h2>
+      <p>Manuscripts in progress</p>
+    </div>
+    <div class="publication-portal__cards" id="reviewCards">
+      {% assign review_items = site.publications | where_exp: "item", "item.category == 'under-review'" %}
+      {% if review_items.size > 0 %}
+        {% for post in review_items %}
+          <article class="publication-card" data-category="review">
+            <div class="publication-card__image"></div>
+            <div class="publication-card__body">
+              <div class="publication-card__meta">
+                <span class="publication-card__status">Under Review</span>
+              </div>
+              <h3>{{ post.title }}</h3>
+              <p class="publication-card__authors">Mahir Afser Pavel</p>
+              <p class="publication-card__venue">{{ post.venue | default: 'Submission in progress' }}</p>
+              <p class="publication-card__excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+              <div class="publication-card__actions">
+                {% if post.permalink %}<a class="publication-card__action" href="{{ post.permalink | relative_url }}">Details</a>{% endif %}
+              </div>
+            </div>
+          </article>
+        {% endfor %}
+      {% else %}
+        <div class="publication-portal__empty">No manuscripts are currently under review.</div>
+      {% endif %}
+    </div>
+  </section>
+</div>
 
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-      {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('publicationSearch');
+    const filters = document.querySelectorAll('.publication-filter');
+    const cards = Array.from(document.querySelectorAll('.publication-card'));
 
-<hr>
+    function applyFilters() {
+      const query = (searchInput.value || '').toLowerCase();
+      const active = document.querySelector('.publication-filter.is-active')?.dataset.filter || 'all';
 
-<h2>Under review</h2>
-<hr>
+      cards.forEach(function (card) {
+        const text = card.textContent.toLowerCase();
+        const matchesQuery = !query || text.includes(query);
+        const category = card.dataset.category || 'journal';
+        const matchesFilter = active === 'all' || (active === 'journal' && category === 'journal') || (active === 'conference' && category === 'conference') || (active === 'review' && category === 'review');
+        card.style.display = matchesQuery && matchesFilter ? '' : 'none';
+      });
+    }
 
-<p>No manuscripts are currently under review.</p>
-
-
+    searchInput.addEventListener('input', applyFilters);
+    filters.forEach(function (filter) {
+      filter.addEventListener('click', function () {
+        filters.forEach(function (item) { item.classList.remove('is-active'); });
+        filter.classList.add('is-active');
+        applyFilters();
+      });
+    });
+  });
+</script>
 
