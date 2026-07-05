@@ -1,26 +1,20 @@
 ---
-title: "Multimodal Representation Learning for Medical Imaging"
+title: "Multi-stage knowledge distillation with layer fusion-based deep learning approach for skin cancer classification"
 collection: publications
 category: manuscripts
 status: published
-authors: "Mahir Afser Pavel"
+authors: "M. A. Pavel, R. Asad, G. K. O. Michael, M. Ikramuzzaman, M. Mustakim, R. Khan"
 role: "First Author"
-venue: "IEEE Transactions on Medical Imaging"
-journal: "IEEE Transactions on Medical Imaging"
+venue: "Scientific Reports"
+journal: "Scientific Reports"
 quartile: "Q1"
-impact_factor: "5.6"
-year: 2010
-doi: "https://doi.org/10.1000/example"
-paperurl: "https://academicpages.github.io/files/paper2.pdf"
-codeurl: "https://github.com"
-dataseturl: "https://huggingface.co"
-bibtexurl: "https://academicpages.github.io/files/bibtex2.bib"
-projecturl: "https://example.com"
-keywords: ["Medical Imaging", "Multimodal Learning", "Representation Learning"]
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This work explores multimodal representation learning to strengthen medical image interpretation and clinical relevance.'
-date: 2010-10-01
-citation: 'Mahir Afser Pavel. (2010). &quot;Multimodal Representation Learning for Medical Imaging.&quot; <i>IEEE Transactions on Medical Imaging</i>. 1(2).'
+year: 2025
+paperurl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=172rqgEAAAAJ&citation_for_view=172rqgEAAAAJ:Se3iqnhoufwC"
+bibtexurl: "https://scholar.google.com/scholar?q=related:172rqgEAAAAJ:Se3iqnhoufwC"
+keywords: ["Knowledge Distillation", "Skin Cancer", "Deep Learning"]
+permalink: /publication/multi-stage-knowledge-distillation-skin-cancer
+excerpt: "This paper proposes a multi-stage knowledge distillation framework with layer fusion for accurate skin cancer classification."
+date: 2025-01-01
+citation: "M. A. Pavel et al. (2025). Multi-stage knowledge distillation with layer fusion-based deep learning approach for skin cancer classification. Scientific Reports."
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper introduces a layered knowledge distillation pipeline that improves skin cancer classification performance while preserving efficiency.

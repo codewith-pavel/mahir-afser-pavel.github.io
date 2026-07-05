@@ -1,25 +1,20 @@
 ---
-title: "Efficient Fine-Tuning for Clinical Large Language Models"
+title: "Fusion of Image Filtering and Knowledge-Distilled YOLO Models for Root Canal Failure Diagnosis"
 collection: publications
-category: conferences
+category: manuscripts
 status: published
-authors: "Mahir Afser Pavel"
-role: "First Author"
-venue: "ACL Workshop on Clinical NLP"
-journal: "ACL Workshop on Clinical NLP"
-quartile: "Conference"
-year: 2024
-doi: "https://doi.org/10.1000/example"
-paperurl: "https://academicpages.github.io/files/paper3.pdf"
-codeurl: "https://github.com"
-dataseturl: "https://huggingface.co"
-bibtexurl: "https://academicpages.github.io/files/bibtex4.bib"
-projecturl: "https://example.com"
-keywords: ["Clinical NLP", "LLMs", "Fine-Tuning"]
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This conference paper examines efficient fine-tuning strategies for clinical large language models in low-resource settings.'
-date: 2024-02-17
-citation: 'Mahir Afser Pavel. (2024). &quot;Efficient Fine-Tuning for Clinical Large Language Models.&quot; <i>ACL Workshop on Clinical NLP</i>. 1(3).'
+authors: "A. Z. Apurba, M. F. S. Titu, M. A. Pavel, I. T. Naheen, R. Khan"
+role: "Co-author"
+venue: "IEEE Access"
+journal: "IEEE Access"
+quartile: "Q1"
+year: 2025
+paperurl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=172rqgEAAAAJ&citation_for_view=172rqgEAAAAJ:ufrVoPGSRksC"
+bibtexurl: "https://scholar.google.com/scholar?q=related:172rqgEAAAAJ:ufrVoPGSRksC"
+keywords: ["Root Canal Diagnosis", "YOLO", "Knowledge Distillation"]
+permalink: /publication/fusion-image-filtering-knowledge-distilled-yolo-root-canal
+excerpt: "This paper combines image filtering and knowledge-distilled YOLO models for root canal failure diagnosis."
+date: 2025-03-01
+citation: "A. Z. Apurba et al. (2025). Fusion of Image Filtering and Knowledge-Distilled YOLO Models for Root Canal Failure Diagnosis. IEEE Access."
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This article explores efficient visual diagnosis pipelines for dental failure detection using lightweight models and filtering strategies.

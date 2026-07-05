@@ -1,25 +1,20 @@
 ---
-title: "Clinical NLP for Early Disease Detection"
+title: "Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study"
 collection: publications
 category: manuscripts
 status: published
-authors: "Mahir Afser Pavel"
+authors: "M. A. Pavel, M. F. S. Titu, A. Z. Apurba, S. Ahmed, S. Rahman, J. Dudley, et al."
 role: "First Author"
-venue: "Nature Digital Medicine"
-journal: "Nature Digital Medicine"
+venue: "International Journal of Dentistry"
+journal: "International Journal of Dentistry"
 quartile: "Q1"
-impact_factor: "4.2"
-year: 2009
-doi: "https://doi.org/10.1000/example"
-paperurl: "https://academicpages.github.io/files/paper1.pdf"
-codeurl: "https://github.com"
-dataseturl: "https://huggingface.co"
-bibtexurl: "https://academicpages.github.io/files/bibtex1.bib"
-projecturl: "https://example.com"
-keywords: ["Clinical NLP", "Early Detection", "Explainable AI"]
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper introduces a clinically grounded NLP framework for early disease detection and explainable decision support.'
-date: 2009-10-01
-citation: 'Mahir Afser Pavel. (2009). &quot;Clinical NLP for Early Disease Detection.&quot; <i>Nature Digital Medicine</i>. 1(1).'
+year: 2026
+paperurl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=172rqgEAAAAJ&citation_for_view=172rqgEAAAAJ:kNdYIx-mwKoC"
+bibtexurl: "https://scholar.google.com/scholar?q=related:172rqgEAAAAJ:kNdYIx-mwKoC"
+keywords: ["Vision-Language Models", "Endodontic Triaging", "Multimodal AI"]
+permalink: /publication/error-tolerant-multimodal-vlm-endodontic-triaging
+excerpt: "This study investigates error-tolerant multimodal vision-language models for endodontic triaging in a cross-sectional clinical setting."
+date: 2026-01-01
+citation: "M. A. Pavel et al. (2026). Error-Tolerant Multimodal Vision-Language Models for Endodontic Triaging: A Cross-Sectional Study. International Journal of Dentistry."
 ---
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper explores robust multimodal AI systems for endodontic triaging and clinical decision support.

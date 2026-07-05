@@ -1,25 +1,20 @@
 ---
-title: "Explainable AI for Clinical Decision Support"
+title: "Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant"
 collection: publications
-category: conferences
+category: manuscripts
 status: published
-authors: "Mahir Afser Pavel"
+authors: "M. A. Pavel, R. Islam, S. B. Babor, R. Mehadi, R. Khan"
 role: "First Author"
-venue: "NeurIPS Workshop on Trustworthy AI"
-journal: "NeurIPS Workshop on Trustworthy AI"
-quartile: "Conference"
-year: 2025
-doi: "https://doi.org/10.1000/example"
-paperurl: "https://academicpages.github.io/files/paper3.pdf"
-codeurl: "https://github.com"
-dataseturl: "https://huggingface.co"
-bibtexurl: "https://academicpages.github.io/files/bibtex5.bib"
-projecturl: "https://example.com"
-keywords: ["Explainable AI", "Clinical Decision Support", "Trustworthy AI"]
-permalink: /publication/2025-06-08-paper-title-number-5
-excerpt: 'This work presents explainable AI techniques that improve transparency and trust in clinical decision support systems.'
-date: 2025-06-08
-citation: 'Mahir Afser Pavel. (2025). &quot;Explainable AI for Clinical Decision Support.&quot; <i>NeurIPS Workshop on Trustworthy AI</i>. 1(3).'
+venue: "PLOS ONE"
+journal: "PLOS ONE"
+quartile: "Q1"
+year: 2024
+paperurl: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=172rqgEAAAAJ&citation_for_view=172rqgEAAAAJ:WF5omc3nYNoC"
+bibtexurl: "https://scholar.google.com/scholar?q=related:172rqgEAAAAJ:WF5omc3nYNoC"
+keywords: ["Lung Cancer", "Knowledge Distillation", "Medical AI"]
+permalink: /publication/lung-cancer-knowledge-distillation-teaching-assistant
+excerpt: "This paper develops a knowledge distillation framework with a teaching assistant for non-small cell lung cancer detection."
+date: 2024-01-01
+citation: "M. A. Pavel et al. (2024). Non-small cell lung cancer detection through knowledge distillation approach with teaching assistant. PLOS ONE."
 ---
-
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
+This study demonstrates a lightweight yet accurate approach for lung cancer detection using a distillation-based deep learning pipeline.
